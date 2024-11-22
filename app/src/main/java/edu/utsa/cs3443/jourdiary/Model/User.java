@@ -1,6 +1,8 @@
 package edu.utsa.cs3443.jourdiary.Model;
 
 public class User {
+
+    private static int userID;
     private String firstName;
     private String lastName;
     private String passWord;
